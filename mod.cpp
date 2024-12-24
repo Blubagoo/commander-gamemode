@@ -1,0 +1,14 @@
+name = "Commander Game Mode";
+picture = "";
+actionName = "Website";
+action = "http://yourwebsite.com";
+description = "A game mode featuring a unique Commander role.";
+logo = "";
+logoOver = "";
+tooltip = "Commander Game Mode";
+tooltipOwned = "Commander Game Mode Owned";
+overview = "A game mode featuring a unique Commander role.";
+author = "Your Name";
+overviewPicture = "";
+overviewText = "A game mode featuring a unique Commander role.";
+overviewFootnote = "";
