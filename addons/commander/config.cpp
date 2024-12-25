@@ -1,10 +1,21 @@
 class CfgPatches {
-    class CommanderGameMode {
-        name = "Commander Game Mode";
-        author = "Your Name";
-        requiredVersion = 1.82;
-        requiredAddons[] = {};
+    class CommanderGamemode {
+        name = "Commander Gamemode";
         units[] = {};
         weapons[] = {};
+        requiredVersion = 1.00;
+        requiredAddons[] = {};
+        author = "Your Name";
+    };
+};
+
+class CfgFunctions {
+    class CommanderGamemode {
+        class Functions {
+            file = "\commander\functions";
+            class init {
+                postInit = 1;
+            };
+        };
     };
 };
